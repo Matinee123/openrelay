@@ -133,7 +133,7 @@ See [DISCLAIMER.md](DISCLAIMER.md) and [PRIVACY.md](PRIVACY.md) for details.
 
 Open Core model:
 - **Framework** (proxy, format translation, config): [MIT](LICENSE)
-- **Pro features** (custom model groups, unlimited requests): [Commercial](COMMERCIAL-LICENSE.txt)
+- **Pro features** (custom model groups, priority support): [Commercial](COMMERCIAL-LICENSE.txt)
 
 ---
 
