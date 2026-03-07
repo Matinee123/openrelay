@@ -6,9 +6,11 @@
 
 <p align="center"><b>Your AI subscriptions, everywhere.</b> Stop paying for AI tools you can't fully use.</p>
 
-[中文说明](#中文)
+<p align="center"><a href="#english">English</a> | <a href="#中文">中文</a></p>
 
 ---
+
+<a name="english"></a>
 
 ## The Problem
 
@@ -115,55 +117,6 @@ openrelay --test         # Test all provider connections
 
 Open `http://localhost:18765` → everything is managed from the Web dashboard.
 
-## All 29 Providers
-
-### IDE Providers (auto-detect, zero config)
-
-| Provider | What you get | Auth |
-|----------|-------------|------|
-| Claude Desktop | Your Claude Pro/Free quota | Keychain cookie |
-| Claude Code | Your Claude Code subscription | Keychain OAuth |
-| Kiro (AWS Q) | Free Claude Sonnet + Haiku + more | `~/.aws/sso/cache/` |
-| Windsurf (Codeium) | SWE-1, Kimi, and more | `state.vscdb` |
-| Antigravity (Google) | Free Gemini 2.5 | Local Language Server |
-| OpenCode | 35+ models including free GLM-4 | CLI subprocess |
-| VS Code (Copilot) | Your Copilot subscription | GitHub OAuth |
-
-### Direct API Providers (bring your own key)
-
-Groq, Cerebras, OpenRouter, SambaNova, DashScope (Qwen), DeepSeek, Gemini, Mistral, xAI (Grok), SiliconFlow, Zhipu (GLM), Together, Fireworks, NVIDIA NIM, GitHub Models, Volcengine, Moonshot, Baichuan, Stepfun, MiniMax, Hunyuan, Ollama
-
-### IDE RPC Proxy Servers
-
-| IDE | Port | Protocol | Use case |
-|-----|------|----------|----------|
-| Windsurf | 18766 | ConnectRPC | Replace Windsurf's built-in models |
-| Antigravity | 18767 | Gemini REST | Route Antigravity through any provider |
-| Cursor | 18780 | ConnectRPC (HTTP/2+TLS) | Use any model inside Cursor |
-| VS Code Copilot | 18769 | Ollama REST | Any model as Copilot backend |
-
-## API Endpoints
-
-```
-POST /v1/messages                    → Anthropic Messages API
-POST /{provider}/v1/messages         → Specific provider (Anthropic)
-POST /v1/chat/completions            → OpenAI Chat Completions API
-POST /{provider}/v1/chat/completions → Specific provider (OpenAI)
-GET  /v1/models                      → All available models
-GET  /health                         → Provider status
-GET  /                               → Web dashboard
-```
-
-## Free vs Pro
-
-| | Free | Pro |
-|---|---|---|
-| Providers | All 29 | All 29 |
-| Daily requests | 30 | Unlimited |
-| IDE RPC proxy | Yes | Yes |
-| Custom model groups | View only | Full access |
-| Price | $0 | [See pricing](https://github.com/romgX/openrelay/releases) |
-
 ## Security
 
 **Credentials never leave your machine.** All tokens, cookies, and API keys stay in local process memory. Nothing is uploaded anywhere.
@@ -185,6 +138,9 @@ Open Core model:
 ---
 
 <a name="中文"></a>
+
+<p align="right"><a href="#english">English</a> | <b>中文</b></p>
+
 ## 中文说明
 
 **你的 AI 订阅，处处可用。** 别再为用不完的 AI 工具白白付费。
