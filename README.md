@@ -6,7 +6,23 @@
 
 <p align="center"><b>Your AI subscriptions, everywhere.</b> Stop paying for AI tools you can't fully use.</p>
 
-<p align="center"><a href="#english">English</a> | <a href="#中文">中文</a></p>
+<p align="center">
+  <a href="https://github.com/romgX/openrelay/releases/latest"><img src="https://img.shields.io/github/v/release/romgX/openrelay?color=blue&label=latest" alt="Latest Release"></a>
+  <a href="https://github.com/romgX/openrelay/releases"><img src="https://img.shields.io/github/downloads/romgX/openrelay/total?color=brightgreen&label=downloads" alt="Total Downloads"></a>
+  <img src="https://img.shields.io/badge/platform-macOS%20%7C%20Windows-lightgrey" alt="Platform">
+  <a href="LICENSE"><img src="https://img.shields.io/badge/license-MIT-green" alt="License"></a>
+  <img src="https://img.shields.io/badge/providers-29-orange" alt="Providers">
+</p>
+
+<p align="center">
+  <b>28 providers · One endpoint · Free tier included</b><br>
+  Extract auth from Claude Desktop, Kiro, Windsurf, VS Code Copilot — no API key needed.<br>
+  Connect any AI quota to any tool in one click.
+</p>
+
+<p align="center">
+  <a href="#english">English</a> | <a href="#中文">中文</a>
+</p>
 
 ---
 
