@@ -158,6 +158,7 @@ xattr -d com.apple.quarantine openrelay-macos
 
 ## 社区
 
+- LINUX DO：[linux.do](https://linux.do)
 - Telegram 讨论群：[t.me/openrelay_chat](https://t.me/openrelay_chat)
 - Telegram 更新频道：[t.me/openrelay_updates](https://t.me/openrelay_updates)
 - 问题反馈：[GitHub Issues](https://github.com/romgX/openrelay/issues)
